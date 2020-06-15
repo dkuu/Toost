@@ -3,7 +3,7 @@
 global $_MODULE;
 $_MODULE = array();
 
-$_MODULE['<{statsbestcategories}prestashop>statsbestcategories_4f29d8c727dcf2022ac241cb96c31083'] = '返回空白記錄';
+$_MODULE['<{statsbestcategories}prestashop>statsbestcategories_4f29d8c727dcf2022ac241cb96c31083'] = '搜索結果是一個空的數據集';
 $_MODULE['<{statsbestcategories}prestashop>statsbestcategories_f5c493141bb4b2508c5938fd9353291a'] = '顯示 %1$s / 共 %2$s';
 $_MODULE['<{statsbestcategories}prestashop>statsbestcategories_49ee3087348e8d44e1feda1917443987'] = '名稱';
 $_MODULE['<{statsbestcategories}prestashop>statsbestcategories_eebfd2d9a7ea25b9e61e8260bcd4849c'] = '銷售數量共計';

@@ -85,10 +85,15 @@ class AdminLoginControllerCore extends AdminController
             $this->context->smarty->assign('warningSslMessage', $warningSslMessage);
         }
 
+        // Check the install folder
+        /*
         if (file_exists(_PS_ADMIN_DIR_.'/../install')) {
             $this->context->smarty->assign('wrong_install_name', true);
         }
+        */
 
+        // Rename the install folder
+        /*
         if (basename(_PS_ADMIN_DIR_) == 'admin' && file_exists(_PS_ADMIN_DIR_.'/../admin/')) {
             $rand = 'admin'.sprintf('%03d', rand(0, 999)).Tools::strtolower(Tools::passwdGen(6)).'/';
             if (@rename(_PS_ADMIN_DIR_.'/../admin/', _PS_ADMIN_DIR_.'/../'.$rand)) {
@@ -101,6 +106,8 @@ class AdminLoginControllerCore extends AdminController
         } else {
             $rand = basename(_PS_ADMIN_DIR_).'/';
         }
+        */
+        $rand = basename(_PS_ADMIN_DIR_).'/';
 
         $this->context->smarty->assign(array(
             'randomNb' => $rand,
