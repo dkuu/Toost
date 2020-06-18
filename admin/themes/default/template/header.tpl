@@ -122,7 +122,7 @@
 					<i class="icon-reorder"></i>
 				</button>
 				<a id="header_shopversion" href="{$default_tab_link|escape:'html':'UTF-8'}">
-					<span id="shop_version">{$qloapps_version}</span>
+					<!--<span id="shop_version">{$qloapps_version}</span>-->
 				</a>
 				{* Shop *}
 				{if isset($is_multishop) && $is_multishop && $shop_list && (isset($multishop_context) && $multishop_context & Shop::CONTEXT_GROUP || $multishop_context & Shop::CONTEXT_SHOP)}
@@ -296,12 +296,14 @@
 				</script>
 {/if}
 				<ul id="header_employee_box">
+					<!--
 					<li class="hidden-sm hidden-xs">
 						<a target="_blank" href="https://store.webkul.com/Qloapps.html" class="toolbar_btn" title="{l s='Explore Qloapps Addons'}">
 							<i class="icon-chain-broken"></i>
 							{l s='Explore Qloapps Addons'}
 						</a>
 					</li>
+					-->
 					{if {$base_url}}
 					<li>
 						<a href="{if isset($base_url_tc)}{$base_url_tc|escape:'html':'UTF-8'}{else}{$base_url|escape:'html':'UTF-8'}{/if}" id="header_foaccess" class="_blank" title="{l s='View my shop'}">
@@ -361,12 +363,13 @@
 		<div id="content" class="{if !$bootstrap}nobootstrap{else}bootstrap{/if}">
 			{if isset($page_header_toolbar)}{$page_header_toolbar}{/if}
 			{if isset($modal_module_list)}{$modal_module_list}{/if}
-
+<!--
 {if $install_dir_exists}
 			<div class="alert alert-warning">
 				{l s='For security reasons, you must also delete the /install folder.'}
 			</div>
 {/if}
+-->
 
 			{hook h='displayAdminAfterHeader'}
 

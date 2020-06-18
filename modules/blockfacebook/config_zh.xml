@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>blockfacebook</name>
+	<displayName><![CDATA[Facebook点赞区块]]></displayName>
+	<version><![CDATA[1.4.1]]></version>
+	<description><![CDATA[显示订阅你的Facebook页面区块。]]></description>
+	<author><![CDATA[PrestaShop]]></author>
+	<tab><![CDATA[front_office_features]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

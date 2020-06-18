@@ -36,6 +36,8 @@
 !/img/st/index.php
 /img/su/*
 !/img/su/index.php
+/img/tmp/*
+!/img/tmp/index.php
 /log/*
 !/log/.htaccess
 !/log/index.php

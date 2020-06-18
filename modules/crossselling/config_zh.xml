@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>crossselling</name>
+	<displayName><![CDATA[交叉销售]]></displayName>
+	<version><![CDATA[1.1.2]]></version>
+	<description><![CDATA[在每个商品页面增加了&ldquo;买了该商品的顾客还购买了...&rdquo;这一部分。]]></description>
+	<author><![CDATA[PrestaShop]]></author>
+	<tab><![CDATA[front_office_features]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>
